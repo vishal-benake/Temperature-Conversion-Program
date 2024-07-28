@@ -1,0 +1,61 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: hsl(0, 6%, 91%);
+}
+
+h1{
+  color: hsl(212, 84%, 65%);
+   font-size: 2em;
+}
+
+form{
+    align-items: center;
+    max-width: 450px;
+    margin: auto;
+    background-color: hsl(0, 0%, 100%);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px black;
+}
+
+#textBox{
+  width: 50%;
+  border: 1px solid hsl(0, 0%, 0%);
+  border-radius: 2px;
+  font-size: 2em;
+  text-align: center;
+}
+
+#toFarhenheit{
+  margin-top: 20px;
+}
+
+label{
+ font-size: 1.5em;
+ font-weight: bold;
+}
+
+#toCelsius{
+  margin-top: 20px;
+}
+
+button{
+  margin-top: 20px;
+  border: none;
+  padding: 8px;
+  width: 200px;
+  background-color: rgba(233, 40, 40, 0.842);
+  color: hsl(0, 0%, 100%);
+  border-radius: 5px;
+}
+
+button:hover{
+  background-color: rgba(233, 40, 40, 0.6);
+}
+
+#output{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 1.5em;
+  font-weight: bold;
+}
